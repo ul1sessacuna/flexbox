@@ -1,0 +1,32 @@
+*{
+    background-color: aquamarine;
+    padding 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 100vh;
+    background-color: coral;
+    margin:50px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content:space-between ;
+}
+
+.caja{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+#caja5{
+    order: -1;
+    flex-grow: 2;
+    
+}
+
